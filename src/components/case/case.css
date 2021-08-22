@@ -1,0 +1,98 @@
+.casesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+select {
+  width: 190px;
+  height: 35px;
+}
+
+.updateContainer {
+  position: absolute;
+  z-index: 99;
+  background-color: rgba(184, 135, 11, 0.246);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.myCaseContainer {
+  background-color: rgba(90, 134, 119, 0.555);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.noCases {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.delBtn {
+  width: 50%;
+  background-color: rgb(209, 12, 12);
+  color: cornsilk;
+  height: 30px;
+}
+
+.updBtn {
+  width: 50%;
+  background-color: rgb(11, 60, 116);
+  color: cornsilk;
+  height: 30px;
+}
+
+.updBtn2 {
+  width: 10%;
+  background-color: rgb(238, 134, 16);
+  color: cornsilk;
+  height: 30px;
+}
+
+.caseInform {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mainTitle {
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.644);
+  font-weight: 600;
+}
+
+.poorImages {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .casesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .casesContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,91 @@
+#volunteers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#volunteers .volIntro h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(31, 38, 59);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#volunteers .volIntro p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(31, 38, 59);
+  margin-bottom: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#volunteers .volunteerCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+
+#volunteers .volunteerCards .volCard {
+  position: relative;
+  width: 20%;
+}
+#volunteers .volunteerCards .employees {
+  width: 190px;
+  height: 190px;
+  border: 2px solid rgb(31, 38, 59);
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
+  image-rendering: pixelated;
+}
+
+#volunteers .volunteerCards .volInfo {
+  margin-bottom: 90px;
+}
+#volunteers .volunteerCards .volName {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 3px #ffc039, 0 0 5px #14b761;
+  color: rgb(31, 38, 59);;
+}
+
+#volunteers .volunteerCards .volText {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width: 350px) {
+  .volunteerCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+  .volunteerCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+  }
+}

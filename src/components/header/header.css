@@ -1,0 +1,15 @@
+.Logo{
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    align-content: center;
+    background-image: linear-gradient(to left, #1f2637, #393d4b, #545661, #6f7077, #8b8b8e);    color: #FFFFFF;
+   
+}
+
+/* .Logo img{
+    z-index: 7;
+    height: 45px;
+    width: 45px;
+
+} */

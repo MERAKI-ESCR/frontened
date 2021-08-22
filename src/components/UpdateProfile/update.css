@@ -1,0 +1,45 @@
+.outRegister {
+    width: 100%;
+    padding: 1.5%;
+  
+    background: #f9f9f9;
+  
+  }
+  
+  .register {
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+  
+    width: 45%;
+  
+    max-width: 90%;
+  
+    margin: auto;
+    background: #fff;
+    padding: 70px 50px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+  }
+  
+  .input {
+    width: 100%;
+    border: 0px;
+    outline: 0;
+    color: black;
+  }
+  
+  .registerButton {
+    background-color: #18b760 !important;
+    border-radius: 3px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-color: #fff;
+  }
+  
+  .message {
+    color: red;
+  }
+  

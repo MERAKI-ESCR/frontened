@@ -1,0 +1,113 @@
+/* .sections {
+  border: 3px solid yellow;
+} */
+
+#categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(31, 38, 59);
+  border : 2px  solid #14b761;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#categories .introduction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+#categories .introduction h1 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+#categories .introduction .introText {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+}
+#categories .introduction .Link:hover {
+  color: #14b761;
+  transform: scale(1.5);
+
+}
+
+#categories .introduction .Link {
+  color: #ffc039;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#categories .introduction .categoryBox3 {
+  width: 30%;
+  height: 100px;
+  display: flex;
+  background-color: #ffc039;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 400;
+}
+#categories .introduction .categoryBox3:hover {
+  background-color: #14b761;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#categories .mainCategories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px;
+  
+}
+
+#categories .mainCategories .categoryBox1 {
+  background-color: #ffc039;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+
+  
+}
+#categories .mainCategories .categoryBox2 {
+  background-color: #14b761;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+
+}
+
+#categories .mainCategories .categoryBox1:hover{
+  background-color: #14b761;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+#categories .mainCategories .categoriesPics {
+  width: 80%;
+  height: 80%;
+}
+
+#categories .mainCategories .generalPic {
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (max-width: 750px) {
+  #categories .mainCategories .categories {
+    grid-template-columns: 1fr;
+  }
+}
