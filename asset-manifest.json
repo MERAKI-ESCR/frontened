@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/frontened/static/css/main.9cd9c87c.chunk.css",
+    "main.js": "/frontened/static/js/main.504e6e2f.chunk.js",
+    "main.js.map": "/frontened/static/js/main.504e6e2f.chunk.js.map",
+    "runtime-main.js": "/frontened/static/js/runtime-main.0367588d.js",
+    "runtime-main.js.map": "/frontened/static/js/runtime-main.0367588d.js.map",
+    "static/js/2.b1b2df7f.chunk.js": "/frontened/static/js/2.b1b2df7f.chunk.js",
+    "static/js/2.b1b2df7f.chunk.js.map": "/frontened/static/js/2.b1b2df7f.chunk.js.map",
+    "index.html": "/frontened/index.html",
+    "static/css/main.9cd9c87c.chunk.css.map": "/frontened/static/css/main.9cd9c87c.chunk.css.map",
+    "static/js/2.b1b2df7f.chunk.js.LICENSE.txt": "/frontened/static/js/2.b1b2df7f.chunk.js.LICENSE.txt",
+    "static/media/building.45eee79f.png": "/frontened/static/media/building.45eee79f.png",
+    "static/media/debt.a75b1855.png": "/frontened/static/media/debt.a75b1855.png",
+    "static/media/educational.c4204f7a.png": "/frontened/static/media/educational.c4204f7a.png",
+    "static/media/email.21f002c6.png": "/frontened/static/media/email.21f002c6.png",
+    "static/media/emp1.b37a4fd7.jpg": "/frontened/static/media/emp1.b37a4fd7.jpg",
+    "static/media/emp2.f8aa8a29.jpg": "/frontened/static/media/emp2.f8aa8a29.jpg",
+    "static/media/emp3.713383fc.jpg": "/frontened/static/media/emp3.713383fc.jpg",
+    "static/media/emp4.888c2680.jpg": "/frontened/static/media/emp4.888c2680.jpg",
+    "static/media/help.fa11d565.png": "/frontened/static/media/help.fa11d565.png",
+    "static/media/house.dfc11897.png": "/frontened/static/media/house.dfc11897.png",
+    "static/media/location.8a7edde9.png": "/frontened/static/media/location.8a7edde9.png",
+    "static/media/medical.efd0d58c.png": "/frontened/static/media/medical.efd0d58c.png",
+    "static/media/notFound.49c5cbe2.png": "/frontened/static/media/notFound.49c5cbe2.png",
+    "static/media/phone-call.eaab4190.png": "/frontened/static/media/phone-call.eaab4190.png",
+    "static/media/photo2.d926e307.jpg": "/frontened/static/media/photo2.d926e307.jpg",
+    "static/media/photo3.58ffd438.jpg": "/frontened/static/media/photo3.58ffd438.jpg",
+    "static/media/photo4.af16b162.jpg": "/frontened/static/media/photo4.af16b162.jpg",
+    "static/media/poor.59b742d3.jpg": "/frontened/static/media/poor.59b742d3.jpg",
+    "static/media/poor.5f3d1c86.jpg": "/frontened/static/media/poor.5f3d1c86.jpg",
+    "static/media/poor1.35ab3772.jpg": "/frontened/static/media/poor1.35ab3772.jpg",
+    "static/media/poor2.1e8a9023.jpg": "/frontened/static/media/poor2.1e8a9023.jpg",
+    "static/media/poor3.f5930b55.jpg": "/frontened/static/media/poor3.f5930b55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0367588d.js",
+    "static/js/2.b1b2df7f.chunk.js",
+    "static/css/main.9cd9c87c.chunk.css",
+    "static/js/main.504e6e2f.chunk.js"
+  ]
+}
